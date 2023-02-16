@@ -1,5 +1,6 @@
 const text = document.getElementById('text_id')
 const shower = document.getElementById('shower')
+text.focus()
 addEventListener('keypress', (e) => {
     if (e.charCode === 13) {
         col_text = text.value.split(" ").join('_').replace(':','')
